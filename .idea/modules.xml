@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TelRan2.iml" filepath="$PROJECT_DIR$/TelRan2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson6_Array_12_04-25/lesson6_Array_12_04-25.iml" filepath="$PROJECT_DIR$/lesson6_Array_12_04-25/lesson6_Array_12_04-25.iml" />
+    </modules>
+  </component>
+</project>
