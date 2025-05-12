@@ -1,4 +1,4 @@
-public class ArrayAdvAppl {
+public class ArrayAdvAppl_HW {
     public static void main(String[] args) {
         int[] arr = new int[10];
         printArray(arr);
