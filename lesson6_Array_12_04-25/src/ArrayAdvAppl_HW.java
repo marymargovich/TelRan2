@@ -61,18 +61,18 @@ public class ArrayAdvAppl_HW {
     }
 
     private static double average(int[] arr) {
-        int average = 0;
+        double average = 0;
 
         for ( int i =0; i < arr.length; i++){
-            average += arr[i]/arr.length;
+            average += arr[i]* 1.0/arr.length;
         }
         return average;
     }
     private static double average2(int[] arr) {
-        int average = 0;
+        double average = 0;
 
         for (int i : arr) {
-            average += i / arr.length;
+            average += i * 1.0 / arr.length;
         }
         return average;
     }
