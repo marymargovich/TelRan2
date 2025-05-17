@@ -29,7 +29,20 @@ public class ArrayAdvAppl_HW {
         }else{
         System.out.println("Index = " + res);}
 
+        reverseArray(arr);
+        System.out.println();
+        
 
+
+    }
+
+    private static void reverseArray(int[] arr) {
+        int temp = 0;
+        for (int i = 0, j = arr.length - 1; i < j; i++, j --){
+            arr[i] = arr[j];
+            arr[j] = arr[i];
+            arr[i] = temp;
+        }
     }
 
     private static int search(int[] arr, int num) {
@@ -45,7 +58,7 @@ public class ArrayAdvAppl_HW {
 
     private static int max(int[] arr) {
         int max = arr[0];
-        for ( int i = 0; i < arr.length; i++){
+        for ( int i = 1; i < arr.length; i++){
             if ( arr [i] > max)
                 max = arr[i];
         }
@@ -53,7 +66,7 @@ public class ArrayAdvAppl_HW {
     }
     private static int max2(int[] arr) {
         int max = arr[0];
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 1; i < arr.length; i++) {
             if (arr[i] > max)
                 max = arr[i];
         }

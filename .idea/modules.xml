@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TelRan2.iml" filepath="$PROJECT_DIR$/TelRan2.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson6_Array_12_04-25/lesson6_Array_12_04-25.iml" filepath="$PROJECT_DIR$/lesson6_Array_12_04-25/lesson6_Array_12_04-25.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson7_ArraySort_14_05_2025/lesson7_ArraySort_14_05_2025.iml" filepath="$PROJECT_DIR$/lesson7_ArraySort_14_05_2025/lesson7_ArraySort_14_05_2025.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson7_HW/lesson7_HW.iml" filepath="$PROJECT_DIR$/lesson7_HW/lesson7_HW.iml" />
     </modules>
   </component>
 </project>
