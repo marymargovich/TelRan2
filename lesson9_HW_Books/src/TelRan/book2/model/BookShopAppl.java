@@ -18,7 +18,7 @@ public class BookShopAppl {
                 "The Guardian",
                 2025,
                 "2025-05-24",
-                "Global Leaders Discuss Climate Change" );
+                "Global Leaders Discuss Climate Change");
         KidsBook k1 = new KidsBook("Harper Lee",
                 "To Kill a Mockingbird",
                 9780060935467L,
@@ -42,7 +42,27 @@ public class BookShopAppl {
 
 
 
-
     }
 
+    public static void printBookShop(Book[] books) {
+        for (Book b : books) {
+            System.out.println(b);
+        }
+    }
+
+    public static void printBookShop(Book[] books, int fromYear) {
+        for (Book b : books) {
+            if (b.getYear() >= fromYear) {
+                System.out.println(b);
+            }
+        }
+    }
+
+    public static void printBookShop(Book[] books, int fromYear, int toYear) {
+        for (Book b : books) {
+            if (b.getYear() >= fromYear && b.getYear() <= toYear) {
+                System.out.println(b);
+            }
+        }
+    }
 }

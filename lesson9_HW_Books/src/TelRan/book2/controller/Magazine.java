@@ -5,6 +5,8 @@ public class Magazine extends Book {
     private String category;
     private String issn;
 
+    private Magazine(){};
+
 
 
 

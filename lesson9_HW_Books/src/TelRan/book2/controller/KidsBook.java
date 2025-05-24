@@ -3,6 +3,8 @@ package TelRan.book2.controller;
 public class KidsBook extends Book {
     private int age;
 
+    public KidsBook(){};
+
 
     public KidsBook(String author, String title, long isbn, int year, int age) {
         super(author, title, isbn,year);

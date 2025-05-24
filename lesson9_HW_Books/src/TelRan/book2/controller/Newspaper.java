@@ -4,6 +4,8 @@ public class Newspaper extends Book {
     private String issueDate;
     private  String headline;
 
+    public Newspaper(){};
+
 
 
 

@@ -4,6 +4,8 @@ public class ComicsBook extends Book {
     private String illustrator;
     private boolean hasBonusContent;
 
+    public ComicsBook(){};
+
 
 
     public ComicsBook(String author, String title,
