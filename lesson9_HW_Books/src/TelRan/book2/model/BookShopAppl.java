@@ -39,10 +39,24 @@ public class BookShopAppl {
         System.out.println(cb1);
 
 
+        Book[] shop = {
+                new Book("Tolkien J.R.R.", "The Fall of Gondolin", 9780008302757L, 2018),
+                new Magazine("Anna Wintour", "Vogue", 2023, "Issue 11 (November)", "Fashion and Lifestyle"),
+                new Newspaper("Katharine Viner", "The Guardian", 2025, "2025-05-24", "Global Leaders Discuss Climate Change"),
+                new KidsBook("Harper Lee", "To Kill a Mockingbird", 9780060935467L, 2006, 12),
+                new ComicsBook("Stan Lee", "Spider-Man: Homecoming", 9781302909820L, 2017, "Steve Ditko", true)
+        };
 
+        System.out.println("_______All books ________");
+        printBookShop(shop);
 
+        System.out.println("_________From year_________");
+        printBookShop(shop, 2018);
 
+        System.out.println("______from  year to year_____");
+        printBookShop(shop, 2017, 2023);
     }
+
 
     public static void printBookShop(Book[] books) {
         for (Book b : books) {
