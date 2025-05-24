@@ -36,6 +36,7 @@ public class BookShopAppl {
         System.out.println(m1);
         System.out.println(np1);
         System.out.println(k1);
+        System.out.println(cb1);
 
 
 
