@@ -1,4 +1,4 @@
-package TelRan.book.controller;
+package TelRan.book.model;
 
     public class Book {
     private String author;
