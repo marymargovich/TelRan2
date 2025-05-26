@@ -1,6 +1,6 @@
-package TelRan.book2.model;
+package TelRan.book2.controller;
 
-import TelRan.book2.controller.*;
+import TelRan.book2.model.*;
 
 public class BookShopAppl {
     public static void main(String[] args) {

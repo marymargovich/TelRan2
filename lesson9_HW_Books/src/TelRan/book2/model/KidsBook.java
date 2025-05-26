@@ -1,4 +1,4 @@
-package TelRan.book2.controller;
+package TelRan.book2.model;
 
 public class KidsBook extends Book {
     private int age;
