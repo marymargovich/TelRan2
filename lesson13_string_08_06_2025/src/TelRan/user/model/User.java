@@ -23,16 +23,12 @@ public class User {
         }
 
     }
-
-
     /*
     to do
     1. @ exists and only one
     2. dot after @
     3. after last dot min 2 symbols
     4. alphabetic, digits, _, -, ., @
-
-
      */
     private boolean validateEmail(String email) {
         return validateAt(email)
