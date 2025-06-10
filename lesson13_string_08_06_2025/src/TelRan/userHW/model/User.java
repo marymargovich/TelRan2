@@ -1,4 +1,4 @@
-package TelRan.user.model;
+package TelRan.userHW.model;
 
 public class User {
     private String email;

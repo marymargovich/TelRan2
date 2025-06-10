@@ -1,5 +1,5 @@
-package TelRan.user.test;
-import TelRan.user.model.User;
+package TelRan.userHW.test;
+import TelRan.userHW.model.User;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
