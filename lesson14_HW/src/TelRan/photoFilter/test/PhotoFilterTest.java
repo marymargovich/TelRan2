@@ -22,7 +22,7 @@ public class PhotoFilterTest {
             "London\\20151001_231035.jpg",
             "Chicago\\20150301_120001.png",
             "Chicago\\20151111_232000.png"
-    };
+    };// но массив получился не нужен О_о
 
     @Test
     public void testIsEuropeanPhoto() {
