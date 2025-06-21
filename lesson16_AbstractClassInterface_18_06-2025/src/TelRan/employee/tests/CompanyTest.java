@@ -42,9 +42,10 @@ class CompanyTest {
 
     @Test
     void removeEmployee() {
+        int originalSize = company.size();
         Employee removed = company.removeEmployee(3000);
         assertNotNull(removed);
-        assertEquals(3,company.size());
+        assertEquals(originalSize - 1, company.size());
 
         Employee removeAgain = company.removeEmployee(3000);
         assertNull(removeAgain);
@@ -54,7 +55,7 @@ class CompanyTest {
     @Test
     void findEmployee() {
         Employee employee = company.findEmployee(1000);
-        assertNull(employee);
+        assertNotNull(employee);
         assertEquals("John", employee.getFirstName());
         assertEquals(1000, employee.getId());
 
@@ -83,11 +84,12 @@ class CompanyTest {
 
     @Test
     void size() {
-        assertEquals(4, company.size());
+        int expectedSize = firm.length;
+        assertEquals(expectedSize, company.size());
     }
 
     @Test
-    void printEmployees() {
+    void printEmployees() { // неасилил ＞人＜;) обясните,плиз, на уроке
     }
 
     @Test
