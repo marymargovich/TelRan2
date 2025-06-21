@@ -12,7 +12,6 @@ public class CompanyImpl implements Company{
     }
 
 
-
     @Override
     public boolean addEmployee(Employee employee) {
         if (employee == null || size == employees.length){
@@ -82,7 +81,9 @@ public class CompanyImpl implements Company{
 
     @Override
     public void printEmployees() {
-
+        for (int i = 0; i < size; i++) {
+            System.out.println(employees[i].toString());
+        }
     }
 
     @Override

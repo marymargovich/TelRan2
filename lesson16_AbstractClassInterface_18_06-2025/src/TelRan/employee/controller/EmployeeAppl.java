@@ -15,10 +15,12 @@ public class EmployeeAppl {
         firm[3] = new SalesManager(3000, "Tigran", "Petro", 90, 500_000, 0.01 );
         printArray(firm);
 
+
         double total = totalSalary(firm);
         System.out.println("Total salary: "+ total);
 
         System.out.println( + firm[0].calcSalary());
+
 
 
     }
@@ -41,4 +43,7 @@ public class EmployeeAppl {
             }
         }
     }
+
+
+
 }

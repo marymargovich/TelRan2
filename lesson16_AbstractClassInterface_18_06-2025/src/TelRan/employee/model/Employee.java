@@ -61,13 +61,36 @@ public abstract class Employee {
     @Override
     public String toString() {
         final String RESET = "\u001B[0m";
+        final String GREEN = "\u001B[32m";
         final String BLUE = "\u001B[34m";
-         return BLUE + "Employee: " + RESET +
-                BLUE + "id: " + RESET + id + ", " +
-                BLUE + "firstName: " + RESET + firstName + ", " +
-                BLUE + "lastName: " + RESET + lastName + ", " +
-                BLUE + "hours: " + RESET + hours+ ", " + BLUE + " salary: " + RESET + calcSalary();
+        final String YELLOW = "\u001B[33m";
+
+        String color;
+        String position;
+
+        if (this instanceof Manager) {
+            color = GREEN;
+            position = "Manager";
+        } else if (this instanceof SalesManager) {
+            color = YELLOW;
+            position = "Sales Manager";
+        } else if (this instanceof WageEmployee) {
+            color = BLUE;
+            position = "Wage Employee";
+        } else {
+            color = RESET;
+            position = "Employee";
+        }
+
+        return color + position + RESET + " - " +
+                color + "id: " + RESET + id + ", " +
+                color + "First Name: " + RESET + firstName + ", " +
+                color + "Last Name: " + RESET + lastName + ", " +
+                color + "Hours: " + RESET + hours + ", " +
+                color + "Salary: " + RESET + calcSalary();
     }
+
+
 
     @Override
     public boolean equals(Object o) {
