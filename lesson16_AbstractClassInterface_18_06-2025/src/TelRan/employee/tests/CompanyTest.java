@@ -89,7 +89,7 @@ class CompanyTest {
     }
 
     @Test
-    void printEmployees() { // неасилил ＞人＜;) обясните,плиз, на уроке
+    void printEmployees() { // неасилил (＞人＜;) обясните,плиз, на уроке
     }
 
     @Test
