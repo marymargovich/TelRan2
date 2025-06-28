@@ -145,12 +145,16 @@ public class ProductStorageTest {
 
     @Test
     void findProductsByPrice() {
+        Product freeProduct = new Product("P011", "Free Sample", "Promo", 0.0, 10);
+        storage.addProduct(freeProduct);
+
         Product[] expected = {
                 products[0], // 4.50
                 products[1], // 5.00
                 products[3], // 3.20
                 products[4], // 2.99
-                products[7]  // 4.75
+                products[7],// 4.75
+                freeProduct  // 0.0
         };
         Product [] smallPrice = storage.findProductsByPrice(0.0, 5.0);
         assertNotNull(smallPrice);
@@ -164,24 +168,25 @@ public class ProductStorageTest {
 
         Product [] nullResult = storage.findProductsByPrice(0.0, 0.0);// цена 0
         assertNotNull(nullResult);
-        assertEquals(0, nullResult.length);
+        assertEquals(1, nullResult.length);
+        assertEquals(freeProduct, nullResult[0]);
         
         Product [] reversedPrice= storage.findProductsByPrice(10.0, 5.0);// min. max
         assertNotNull(reversedPrice);
         assertEquals(0, reversedPrice.length);
         
-        Product [] negativePrice = storage.findProductsByPrice(-1, -10);
+        Product [] negativePrice = storage.findProductsByPrice(-1, -10); //минусовые
         assertNotNull(negativePrice);
         assertEquals(0, negativePrice.length);
 
-        Product[] exactMatch = storage.findProductsByPrice(4.50, 4.50); // точно по products[0]
+        Product[] exactMatch = storage.findProductsByPrice(4.50, 4.50); // совпадение
         assertNotNull(exactMatch);
         assertEquals(1, exactMatch.length);
         assertEquals(products[0], exactMatch[0]);
 
-        Product [] allProducts = storage.findProductsByPrice(0.0, 1000 );
+        Product [] allProducts = storage.findProductsByPrice(0.0, 1000 );//все продукты
         assertNotNull(allProducts);
-        assertEquals(products.length, allProducts.length);
+        assertEquals(products.length+ 1 , allProducts.length);//+1 из-за свежедобавленного
 
     }
 
@@ -208,7 +213,7 @@ public class ProductStorageTest {
         assertNotNull(reversedQuantity);
         assertEquals(0, reversedQuantity.length);
 
-        Product [] negativeQuantity = storage. findProductsByQuantity(-10, -100);
+        Product [] negativeQuantity = storage. findProductsByQuantity(-10, -100);//минусовые
         assertNotNull(negativeQuantity);
         assertEquals(0, negativeQuantity.length);
 
