@@ -23,7 +23,8 @@ public class OddEvenTest {
 
         System.out.println("\n=== Test: Even before Odd ===");
         System.out.println("Before: " + Arrays.toString(origin));
-        Arrays.sort(origin, new OddEvenComparator());// сперто у джп - нужно обьяснение) пожалуйста
+        OddEvenComparator od = new OddEvenComparator();
+        Arrays.sort(origin, od);
         System.out.println("After:  " + Arrays.toString(origin));
 
         assertArrayEquals(expected, origin);

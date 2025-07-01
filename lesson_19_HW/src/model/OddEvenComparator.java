@@ -4,18 +4,18 @@ import java.util.Comparator;
 
 public class OddEvenComparator implements Comparator <Integer> {
     @Override
-    public int compare(Integer o1, Integer o2) {
-        boolean isO1Even = (o1 % 2 == 0);
-        boolean isO2Even = (o2 % 2 == 0);
+    public int compare(Integer d1, Integer d2) {
+        boolean isEven1 = (d1 % 2 == 0);
+        boolean isEven2 = (d2 % 2 == 0);
 
-        if (isO1Even && !isO2Even) {
+        if (isEven1 && !isEven2) {
             return -1;
-        } else if (!isO1Even && isO2Even) {
+        } else if (!isEven1 && isEven2) {
             return 1;
-        } else if (isO1Even && isO2Even) {
-            return Integer.compare(o1, o2);
+        } else if (isEven1 && isEven2) {
+            return Integer.compare(d1, d2);
         } else {
-            return Integer.compare(o2, o1);
+            return Integer.compare(d2, d1);
         }
     }
 
