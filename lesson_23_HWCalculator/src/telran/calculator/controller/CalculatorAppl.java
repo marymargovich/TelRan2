@@ -19,10 +19,10 @@ public class CalculatorAppl {
 //        String operation = scanner.next().toUpperCase();
 
         int a = readInt(scanner, "Please enter first number: ");
-        int b = readInt(scanner, "Please enter second number:");
+        int b = readInt(scanner, "Please enter second number: ");
         Operation operation1 = readOperation(scanner);
 
-        System.out.println(" a  " + a + " b " + b + " operation " + operation1);
+        System.out.println("a = " + a +"\nb = " + b + "\noperation " + operation1+"\n" );
 
         int result = operation1.apply(a, b);
 
@@ -57,7 +57,7 @@ public class CalculatorAppl {
             System.out.println("\u001B[31mInvalid operation, please try again.\u001B[0m");
 
         }
-        }
+    }
 
 
 }
