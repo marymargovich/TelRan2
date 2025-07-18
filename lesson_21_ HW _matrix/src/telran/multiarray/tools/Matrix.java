@@ -7,6 +7,12 @@ public class Matrix {
         if (matrix1.length == 0) {
             return new int[0][0];
         }
+
+        for (int i = 0; i < matrix1.length; i++) {
+            if( matrix1[0].length != matrix1[i].length){
+                return new int [0][0];
+            }
+        }
         int row = matrix1.length;
         int column = matrix1[0].length;
 
@@ -41,19 +47,25 @@ public class Matrix {
      */
 
     public static int[][] multiply(int[][] matrix1, int[][] matrix2) {
+        if( matrix1[0].length != matrix2.length){
+            return null;
+        }
 
         int rows = matrix1.length;
         int columns = matrix2[0].length;
         int[][] result = new int[rows][columns];
+
+
 
         for (int i = 0; i < matrix1.length; i++) {
             for (int j = 0; j < matrix2[0].length; j++) {//количество столбцов
                 result[i][j] = calcMatrixCell(matrix1, matrix2, i, j);
             }
         }
-
         return result;
     }
+
+
     private static int calcMatrixCell( int[][] m1, int [][] m2, int i, int j){
         int sum = 0;
         for (int index = 0; index < m1[0].length; index++) {
