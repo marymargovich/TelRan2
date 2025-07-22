@@ -3,41 +3,28 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TelRan2.iml" filepath="$PROJECT_DIR$/TelRan2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lesson10-HW/lesson10-HW.iml" filepath="$PROJECT_DIR$/lesson10-HW/lesson10-HW.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lesson10_inheritance_25_05_2025/lesson10_inheritance_25_05_2025.iml" filepath="$PROJECT_DIR$/lesson10_inheritance_25_05_2025/lesson10_inheritance_25_05_2025.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lesson11_28_05_2025/lesson11_28_05_2025.iml" filepath="$PROJECT_DIR$/lesson11_28_05_2025/lesson11_28_05_2025.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lesson11_HW/lesson11_HW.iml" filepath="$PROJECT_DIR$/lesson11_HW/lesson11_HW.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lesson12_HW/lesson12_HW.iml" filepath="$PROJECT_DIR$/lesson12_HW/lesson12_HW.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lesson12_WrapperClasses_04_06_2025/lesson12_WrapperClasses_04_06_2025.iml" filepath="$PROJECT_DIR$/lesson12_WrapperClasses_04_06_2025/lesson12_WrapperClasses_04_06_2025.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lesson13_string_08_06_2025/lesson13_string_08_06_2025.iml" filepath="$PROJECT_DIR$/lesson13_string_08_06_2025/lesson13_string_08_06_2025.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lesson14_HW/lesson14_HW.iml" filepath="$PROJECT_DIR$/lesson14_HW/lesson14_HW.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lesson14_RegEx_11_06_2025/lesson14_RegEx_11_06_2025.iml" filepath="$PROJECT_DIR$/lesson14_RegEx_11_06_2025/lesson14_RegEx_11_06_2025.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson_10_inheritance_25_05_2025/lesson10_inheritance_25_05_2025.iml" filepath="$PROJECT_DIR$/lesson_10_inheritance_25_05_2025/lesson10_inheritance_25_05_2025.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson_11_28_05_2025/lesson11_28_05_2025.iml" filepath="$PROJECT_DIR$/lesson_11_28_05_2025/lesson11_28_05_2025.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson_12_WrapperClasses_04_06_2025/lesson12_WrapperClasses_04_06_2025.iml" filepath="$PROJECT_DIR$/lesson_12_WrapperClasses_04_06_2025/lesson12_WrapperClasses_04_06_2025.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson_14_RegEx_11_06_2025/lesson14_RegEx_11_06_2025.iml" filepath="$PROJECT_DIR$/lesson_14_RegEx_11_06_2025/lesson14_RegEx_11_06_2025.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson15_HW_PhotoSelector/lesson15_HW_PhotoSelector.iml" filepath="$PROJECT_DIR$/lesson15_HW_PhotoSelector/lesson15_HW_PhotoSelector.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson15_validator_15_06_2025/lesson15_validator_15_06_2025.iml" filepath="$PROJECT_DIR$/lesson15_validator_15_06_2025/lesson15_validator_15_06_2025.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lesson16_AbstractClassInterface_18_06-2025/lesson16_AbstractClassInterface_18_06-2025.iml" filepath="$PROJECT_DIR$/lesson16_AbstractClassInterface_18_06-2025/lesson16_AbstractClassInterface_18_06-2025.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson_16_AbstractClassInterface_18_06-2025/lesson16_AbstractClassInterface_18_06-2025.iml" filepath="$PROJECT_DIR$/lesson_16_AbstractClassInterface_18_06-2025/lesson16_AbstractClassInterface_18_06-2025.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson17_HW/lesson17_HW.iml" filepath="$PROJECT_DIR$/lesson17_HW/lesson17_HW.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson18_2_25_06_2025/lesson18_2_25_06_2025.iml" filepath="$PROJECT_DIR$/lesson18_2_25_06_2025/lesson18_2_25_06_2025.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lesson18_Company_25_06_2025/lesson18_Company_25_06_2025.iml" filepath="$PROJECT_DIR$/lesson18_Company_25_06_2025/lesson18_Company_25_06_2025.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson_18_Company_25_06_2025/lesson18_Company_25_06_2025.iml" filepath="$PROJECT_DIR$/lesson_18_Company_25_06_2025/lesson18_Company_25_06_2025.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson1_HW/lesson1_HW.iml" filepath="$PROJECT_DIR$/lesson1_HW/lesson1_HW.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lesson6_Array_12_04-25/lesson6_Array_12_04-25.iml" filepath="$PROJECT_DIR$/lesson6_Array_12_04-25/lesson6_Array_12_04-25.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lesson7_ArraySort_14_05_2025/lesson7_ArraySort_14_05_2025.iml" filepath="$PROJECT_DIR$/lesson7_ArraySort_14_05_2025/lesson7_ArraySort_14_05_2025.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lesson7_HW/lesson7_HW.iml" filepath="$PROJECT_DIR$/lesson7_HW/lesson7_HW.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lesson8_HW_QuadraticEquation/lesson8_HW_QuadraticEquation.iml" filepath="$PROJECT_DIR$/lesson8_HW_QuadraticEquation/lesson8_HW_QuadraticEquation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lesson8_encapsulation_18_05_25/lesson8_encapsulation_18_05_25.iml" filepath="$PROJECT_DIR$/lesson8_encapsulation_18_05_25/lesson8_encapsulation_18_05_25.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lesson9_HW_Books/lesson9_HW_Books.iml" filepath="$PROJECT_DIR$/lesson9_HW_Books/lesson9_HW_Books.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lesson9_overloading_21_05_2025/lesson9_overloading_21_05_2025.iml" filepath="$PROJECT_DIR$/lesson9_overloading_21_05_2025/lesson9_overloading_21_05_2025.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson_6_Array_12_04-25/lesson6_Array_12_04-25.iml" filepath="$PROJECT_DIR$/lesson_6_Array_12_04-25/lesson6_Array_12_04-25.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson_7_ArraySort_14_05_2025/lesson7_ArraySort_14_05_2025.iml" filepath="$PROJECT_DIR$/lesson_7_ArraySort_14_05_2025/lesson7_ArraySort_14_05_2025.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_18_HW/lesson_18_HW.iml" filepath="$PROJECT_DIR$/lesson_18_HW/lesson_18_HW.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_19_Comparator/lesson_19_Comparator.iml" filepath="$PROJECT_DIR$/lesson_19_Comparator/lesson_19_Comparator.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_19_HW/lesson_19_HW.iml" filepath="$PROJECT_DIR$/lesson_19_HW/lesson_19_HW.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_20_ArraysAdvanced/lesson_20_ArraysAdvanced.iml" filepath="$PROJECT_DIR$/lesson_20_ArraysAdvanced/lesson_20_ArraysAdvanced.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_20_HW/lesson_20_HW.iml" filepath="$PROJECT_DIR$/lesson_20_HW/lesson_20_HW.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lesson_20_HW _2/lesson_20_HW _2.iml" filepath="$PROJECT_DIR$/lesson_20_HW _2/lesson_20_HW _2.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_21_ HW _matrix/lesson_21_ HW _matrix.iml" filepath="$PROJECT_DIR$/lesson_21_ HW _matrix/lesson_21_ HW _matrix.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lesson_21_2DArray/lesson_21_2DArray.iml" filepath="$PROJECT_DIR$/lesson_21_2DArray/lesson_21_2DArray.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_22_HW/lesson_22_HW.iml" filepath="$PROJECT_DIR$/lesson_22_HW/lesson_22_HW.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_22_Java_time_13_07_2025/lesson_22_Java_time_13_07_2025.iml" filepath="$PROJECT_DIR$/lesson_22_Java_time_13_07_2025/lesson_22_Java_time_13_07_2025.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_23_HWCalculator/lesson_23_HWCalculator.iml" filepath="$PROJECT_DIR$/lesson_23_HWCalculator/lesson_23_HWCalculator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lesson_23_bitwise_16_07_2025/lesson_23_bitwise_16_07_2025.iml" filepath="$PROJECT_DIR$/lesson_23_bitwise_16_07_2025/lesson_23_bitwise_16_07_2025.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_23_enamus_16_07_2025/lesson_23_enamus_16_07_2025.iml" filepath="$PROJECT_DIR$/lesson_23_enamus_16_07_2025/lesson_23_enamus_16_07_2025.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_24HW_album_sorted/lesson_24HW_album_sorted.iml" filepath="$PROJECT_DIR$/lesson_24HW_album_sorted/lesson_24HW_album_sorted.iml" />
     </modules>
