@@ -10,10 +10,11 @@ public class FibonacciAppl {
 
         Iterator<Integer> iterator =fibonacci.iterator();
         int sum =1;
+        System.out.print("1");
         while (iterator.hasNext()){
             int number = iterator.next();
             sum += number;
-            System.out.print( number + " ");
+            System.out.print( ", "+ number);
 
         }
         System.out.println("\nSum = "+ sum);
